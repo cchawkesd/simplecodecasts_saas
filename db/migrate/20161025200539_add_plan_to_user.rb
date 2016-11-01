@@ -3,4 +3,3 @@ class AddPlanToUser < ActiveRecord::Migration
     add_column :users, :plan_id, :integer
   end
 end
-
